@@ -8,6 +8,8 @@ My `tlv2-ui` nuxt module, that lives in another repo, uses `addVitePlugin` in it
 
 The error goes away when `optimizeDeps` is not extended. You can verify this by modifying `node_modules/tlv2-ui/dist/module.mjs` in-place.
 
+Downgrading to Vitest v3 seems to work, so I am just going to do that for now.
+
 # Details
 
 ## "e2e" test config
