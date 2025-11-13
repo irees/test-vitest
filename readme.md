@@ -12,6 +12,33 @@ Downgrading to Vitest v3 seems to work, so I am just going to do that for now.
 
 # Details
 
+## "vue" test config
+
+Using @vue/test-utils, happy-dom works.
+
+```
+irees@studio (db:localhost/tlv2) (k8:mtc) test-vitest % yarn test --project vue --coverage
+
+ RUN  v4.0.8 /Users/irees/src/other/test-vitest/test-vitest
+      Coverage enabled with v8
+
+ ✓  vue  test/vue/component.test.ts (1 test) 8ms
+   ✓ ok component 7ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  01:44:20
+   Duration  218ms (transform 24ms, setup 0ms, collect 72ms, tests 8ms, environment 70ms, prepare 8ms)
+
+ % Coverage report from v8
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ ok.vue   |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+```
+
 ## "e2e" test config
 
 With `await setup()` in test init script works fine:

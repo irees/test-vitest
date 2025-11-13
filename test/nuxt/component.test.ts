@@ -8,3 +8,4 @@ test('ok component', async () => {
     '"hi: hello world!"',
   )
 })
+
