@@ -1,3 +1,5 @@
 <template>
-  <div>hi</div>
+  <div>
+    Here is a component: <ok msg="hello world!" />
+  </div>
 </template>
