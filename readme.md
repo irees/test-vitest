@@ -14,7 +14,7 @@ Downgrading to Vitest v3 seems to work, so I am just going to do that for now.
 
 ## "vue" test config
 
-Using @vue/test-utils, happy-dom works.
+Using @vue/test-util & happy-dom works.
 
 ```
 irees@studio (db:localhost/tlv2) (k8:mtc) test-vitest % yarn test --project vue --coverage
